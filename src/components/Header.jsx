@@ -1,7 +1,6 @@
 import React from 'react'
 import './Header.css'
 import Navbar from './Navbar'
-import Wavy from './Wavy'
 
 const Header = () =>
 {
@@ -9,7 +8,6 @@ const Header = () =>
     <div>
       <div className="background">
         <Navbar />
-        <Wavy />
       </div>
     </div>
   )

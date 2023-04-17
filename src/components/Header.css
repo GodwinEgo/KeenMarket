@@ -4,7 +4,7 @@ body {
 }
 
 .background {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-color: rgba(255, 0, 0, .8);
 }
