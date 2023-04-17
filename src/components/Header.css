@@ -1,0 +1,10 @@
+body {
+  background: url(/src/assets/Patterns/bg.png);
+  height: 100vh;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 0, 0, .8);
+}
