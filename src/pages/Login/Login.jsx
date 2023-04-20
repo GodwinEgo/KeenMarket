@@ -22,7 +22,15 @@ const theme = createTheme();
 const Login = () =>
 {
 
-  const handleSubmit
+  const handleSubmit = ( e ) =>
+  {
+    e.preventDefault();
+    const data = new FormData( e.currentTarget );
+    console.log( {
+      email: data.get( 'email' ),
+      password: data.get( 'password' ),
+    } )
+  }
 
 
 }
