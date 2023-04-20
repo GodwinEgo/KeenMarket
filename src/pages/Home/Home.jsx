@@ -1,13 +1,16 @@
 import React from 'react'
-import Header from '../../components/Header'
+import { Link } from 'react-router-dom'
 
-const Homes = () =>
+const Home = () =>
 {
   return (
     <div>
-      <Header />
+      NBUDDY
+      <Link to='/login'>
+        Login
+      </Link>
     </div>
   )
 }
 
-export default Homes
+export default Home

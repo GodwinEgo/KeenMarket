@@ -1,7 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
-import About from './pages/About/About'
+import Dashboard from './pages/Dashboard/Dashboard'
+import Login from './pages/Login/Login'
+
+
 
 const App = () =>
 {
@@ -10,7 +13,8 @@ const App = () =>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={ <Home /> } />
-          <Route path='/about' element={ <About /> } />
+          <Route path='/dashboard' element={ <Dashboard /> } />
+          <Route path='/login' element={ <Login /> } />
         </Routes>
       </BrowserRouter>
     </div>
